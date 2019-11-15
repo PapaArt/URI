@@ -1,0 +1,5 @@
+Num = tonumber(io.read())
+NumTime = tonumber(io.read())
+Value = tonumber(io.read())
+print("NUMBER = " .. Num)
+print("SALARY = U$ " .. string.format("%.2f",NumTime*Value))
